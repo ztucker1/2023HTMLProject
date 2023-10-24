@@ -75,16 +75,51 @@
             margin: 150px 5px 0px 7px;
 
         }
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: lightsteelblue;
+        }
+
+        li{
+            float: left;
+            border-right: 1px solid white;
+        }
+
+        li a{
+            display: block;
+            color: floralwhite;
+            text-align: center;
+            text-decoration: none;
+            padding: 14px 16px;
+        }
+        li a:hover{
+            background-color: cornflowerblue;
+        }
+        .active{
+            background-color: lightskyblue;
+        }
+        .advertise{
+            float: right;
+            border-left: 1px solid white;
+            background-color: dodgerblue;
+        }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <div class="header">Header Goes Here
-        <div class="card">Must Read</div>
-        <div class="card">Most Recent</div>
-        <div class="card">To Be Read</div>
-    </div>
+    <div class="header"><ul>
+        <li><a href="redesign.html" class="active">Home</a></li>
+        <li><a href="musr.html">Must Read</a></li>
+        <li><a href="mostrecent.html">Most Recent</a></li>
+        <li><a href="TBR.html">TBR</a></li>
+        <li><a href="conus.html">Contact Us</a></li>
+        <li class="advertise"><a href="#"> Give me money </a></li>
+
+    </ul>
     <div class="main">Main
         <div class="card2">Me Pic</div>
         <div class="card3">Current Read</div>
